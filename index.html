@@ -214,6 +214,114 @@
               We considered few-shot anomaly detection (FSAD), a practical yet under-studied setting for anomaly detection, where only a limited number of normal images are provided for each category at training. Inspired by how humans detect anomalies, i.e., comparing an image in question to normal images, we leveraged registration, an image alignment task that is inherently generalizable across categories, as the proxy task, to train a category-agnostic anomaly detection model. During testing, the anomalies are identified by comparing the registered features of the test image and its corresponding support (normal) images. Experimental results have shown that the proposed method outperforms the state-of-the-art FSAD methods by 3%-8% in AUC on the MVTec and MPDD benchmarks.
               </p>
             </td>
+
+            <tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/ESAD.png" width="250" style="border-style: none">
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2012.04905">
+                <papertitle>ESAD: End-to-end Deep Semi-supervised Anomaly Detection</papertitle>
+              </a>
+              <br>
+              <strong>Chaoqin Huang</strong>, 
+              <a href="https://scholar.google.com/citations?hl=en&user=ZuQM_TUAAAAJ">Fei Ye</a>,
+              <a href="https://scholar.google.com/citations?user=hCr8Km8AAAAJ&hl=zh-CN">Peisen Zhao</a>,
+              <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a>,
+              <a href="https://mediabrain.sjtu.edu.cn/members/">Yanfeng Wang</a>,
+              <a href="https://www.qitian1987.com/">Qi Tian</a>
+              <br>
+                <em>British Machine Vision Conference (BMVC)</em> 2021
+              <p>
+              We proposed a new KL-divergence-based objective function and show that two factors: the mutual information, and the entropy, constitute an integral objective function for anomaly detection. Extensive experiments have revealed that the proposed method significantly outperforms several state-of-the-arts on multiple benchmark datasets, including medical diagnosis and several classic anomaly detection benchmarks.
+              </p>
+            </td>
+
+            <tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/ICIP.png" width="250" style="border-style: none">
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9506079">
+                <papertitle>Deep Unsupervised Image Anomaly Detection: An Information Theoretic Framework</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?hl=en&user=ZuQM_TUAAAAJ">Fei Ye</a>,
+              <a href="https://huangjiezheng.com/">Huangjie Zheng</a>,
+              <strong>Chaoqin Huang</strong>, 
+              <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a>
+              <br>
+                <em>IEEE International Conference on Image Processing (ICIP)</em> 2021
+              <p>
+              We proposed an objective function for anomaly detection with information theory, which maximizes the distance between normal and anomalous data in terms of the joint distribution of images and their representation. We managed to find its lower bound which weights the trade-off between mutual information and entropy, which leads to a novel information theoretic framework for unsupervised image anomaly detection.
+              </p>
+            </td>
+
+            <tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/DG_ISBI.png" width="250" style="border-style: none">
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9506079">
+                <papertitle>Semi-Supervised Domain Generalization for Medical Image Analysis</papertitle>
+              </a>
+              <br>
+              <a href="https://frankzhangrp.github.io/">Ruipeng Zhang</a>,
+              <a href="https://scholar.google.com/citations?user=hQJ5hwMAAAAJ&hl=en&oi=ao">Qinwei Xu</a>,
+              <strong>Chaoqin Huang</strong>, 
+              <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a>,
+              <a href="https://mediabrain.sjtu.edu.cn/members/">Yanfeng Wang</a>
+              <br>
+                <em>IEEE International Symposium on Biomedical Imaging (ISBI)</em> 2021
+              <p>
+              We introduced a general regularization-based semi-supervised domain generalization method, where the stability and orthogonality of the learned features are introduced as two regularization factors of the learning objective. Both regularization factors can be applied to both labeled and unlabelled data.
+              </p>
+            </td>
+
+            <tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/guided_filtering_diagram.png" width="250" style="border-style: none">
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9506079">
+                <papertitle>DrivingStereo: A Large Dataset to Make Sense of Stereo Matching for Auto-Driving</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=6RaR1cQAAAAJ&hl=zh-CN">Guorun Yang</a>,
+              <a href="https://scholar.google.com.hk/citations?user=tXuvWDYAAAAJ&hl=zh-CN">Xiao Song</a>,
+              <strong>Chaoqin Huang</strong>, 
+              <a href="https://scholar.google.com.au/citations?user=qfewonIAAAAJ&hl=en">Zhidong Deng</a>,
+              <a href="https://scholar.google.com/citations?user=mwsxrm4AAAAJ&hl=en">Jianping Shi</a>,
+              <a href="https://boleizhou.github.io/">Bolei Zhou</a>
+              <br>
+                <em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)</em> 2019
+              <p>
+              We constructed a novel large-scale stereo dataset named DrivingStereo. It contains over 100k images covering a diverse set of driving scenarios. High-quality labels of disparity are produced by a model-guided filtering strategy from multi-frame LiDAR points.
+              </p>
+            </td>
+
+            <tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/rrm.png" width="250" style="border-style: none">
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9506079">
+                <papertitle>Recurrent Residual Module for Fast Inference in Videos</papertitle>
+              </a>
+              <br>
+              <a href="http://people.csail.mit.edu/bpan/">Bowen Pan</a>,
+              <a href="https://wuwei.io/">Wuwei Lin</a>,
+              <a href="https://fang-xiaolin.github.io/">Xiaolin Fang</a>,
+              <strong>Chaoqin Huang</strong>, 
+              <a href="https://boleizhou.github.io/">Bolei Zhou</a>,
+              <a href="https://www.mvig.org/">Cewu Lu</a>
+              <br>
+                <em>IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)</em> 2018
+              <p>
+              We proposed a framework called Recurrent Residual Module (RRM) to accelerate the CNN inference for video recognition tasks. This framework has a novel design of using the similarity of the intermediate feature maps of two consecutive frames, to largely reduce the redundant computation.
+              </p>
+            </td>
+
             </tr>
           </tr> 
         </tbody></table>
